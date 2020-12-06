@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    
     <div>
       <head-banner></head-banner>
     </div>
 
     <div>
-      <section-api></section-api>
+      <div class="container-fluid">
+        <section-api></section-api>
+      </div>
     </div>
 
     <div>
@@ -20,12 +21,10 @@
     <div>
       <footer-page></footer-page>
     </div>
-
   </div>
 </template>
 
 <script>
-
 import HeadBanner from "./components/HeadBanner.vue";
 import SectionApi from "./components/SectionApi.vue";
 import AditionalSection from "./components/AditionalSection.vue";
