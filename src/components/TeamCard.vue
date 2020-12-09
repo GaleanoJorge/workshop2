@@ -10,8 +10,7 @@
         <div class="card-body">
           <h5 class="card-title">{{ member.codigo }} {{ member.nombre }}</h5>
           <p class="card-text">
-              Edad: {{member.edad}} <br><br>
-              Profesión: {{member.profesion}} <br><br>
+              Rol: {{member.rol}} <br><br>
             {{ member.descripcion }}
           </p>
         </div>
